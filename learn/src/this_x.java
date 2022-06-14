@@ -1,8 +1,13 @@
 public class this_x {
 
 	int a;
+	this_x()
+	{
+		System.out.println("Default cons");
+	}
 	this_x(int a)
 	{
+		this();
 		this.a=a;
 	}
 	void show()
