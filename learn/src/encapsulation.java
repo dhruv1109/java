@@ -76,5 +76,4 @@ public class encapsulation {
 			default:System.out.println("Invalid Choice");
 		}
 	}
-
 }
